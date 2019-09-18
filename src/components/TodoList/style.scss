@@ -1,0 +1,29 @@
+.container_wrap{
+    width:600px;
+    margin:10px auto 0;
+    .header_container{
+        .ant-btn{
+            margin-left:20px;
+            &:first-child{
+                margin-left:0;
+            }
+        }
+    }
+    .todo_list{
+        position: relative;
+        padding-left:10px !important;
+        cursor: pointer;
+        .icon{
+            position:absolute;
+            top:50%;
+            right:5px;
+            transform: translateY(-50%);
+        }
+    }
+    .done_todo_list{
+        text-decoration:line-through;
+        .icon{
+            color:#1890ff;
+        }
+    }
+}
